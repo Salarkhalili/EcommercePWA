@@ -1,0 +1,78 @@
+@import url("./fontEnglish.scss");
+@import url("./fontPersian.scss");
+
+body,
+html {
+  letter-spacing: normal !important;
+}
+input:-webkit-autofill {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0 50px transparent inset;
+}
+
+::-webkit-scrollbar {
+  width: 7px !important;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: var(--scroll-track-shadow);
+  box-shadow: var(--scroll-track-shadow);
+  overflow: hidden;
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  width: 5px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  opacity: 0.2;
+  -webkit-box-shadow: var(--scroll-thumb-shadow);
+  background: rgba(78, 144, 230, 0.616);
+  box-shadow: var(--scroll-thumb-shadow);
+}
+
+a {
+  color: unset;
+  width: 100%;
+  height: 100%;
+  display: block;
+  &:hover {
+    color: unset;
+  }
+}
+
+.ant-tour-inner {
+  direction: rtl;
+}
+
+:where(.css-dev-only-do-not-override-ttralc).ant-menu {
+  overflow: auto;
+}
+
+.ant-layout-sider-children {
+  & ul {
+    overflow: auto;
+  }
+}
+.height_section_xl {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.height_section_lg {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.height_section_md {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.height_section_sm {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

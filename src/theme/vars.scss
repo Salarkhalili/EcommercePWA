@@ -1,0 +1,102 @@
+:root {
+  // Green family
+  --green: #189f9d;
+  --green-light: #04d0c4;
+  --green-lighter: #9ad9dc;
+  --green-dark: #35888d;
+  --green-darker: #265862;
+
+  //white family
+  --white: #fff;
+  --wild-sand: #f5f5f5;
+  --gallery: #eeeeee;
+  //black family
+  --black: #000;
+  // Blue family
+  --blue: #00789c;
+  --blue-dark: #0b4f69;
+  --blue-chill: #1384a1;
+  --blue-light: #4ab0cf;
+  --blue-zodiac: #132852;
+  --sea-gull: #70b1e8;
+  --teal-blue: #08456d;
+  --astral: #387aa7;
+  --eastern-blue: #1e90bd;
+  --cerulean: #06aed8;
+  --info: #17a2b8;
+  --lochinvar: rgb(45, 131, 142);
+  --lucky-point: #1d2671;
+  --st-tropaz: #2a5096;
+  // Gray family
+  --gray: #dee2e9;
+  --gray-light: #eeeef5;
+  --emperor: #555555;
+  --mischka: #d2d5db;
+  --dusty-gray: #999999;
+  --alabaster: #f7f7f7;
+  --alabaster-solid: #fafaff;
+  --boulder: #777777;
+  --alto: #dddddd;
+  --waterloo: #727891;
+  --athens-gray: #f8f9fa;
+  --silver: #c2c2c2;
+  --alto: #cfcdcd;
+  --tundora: #454545;
+  --mine-shaft: #303030;
+  --gray-header: #464a5e;
+  // Gradient family
+  --gradirent-green-from: #479d49;
+  --gradirent-green-to: #294083;
+
+
+
+  //login
+  --login-theme: #eaf2fc;
+  --login-blue-theme: #307fe2;
+  //white family
+  --white: #ffffff;
+  --geyser: #dfe5e9;
+  //purple
+  --purple-dak: #3a3778;
+  --light-green: #87d068;
+  //orange family
+  --orange: #ffa500;
+  //red family
+  --light-red: #f50;
+  --red: #ff0000;
+  --tomato: #ff6347;
+  --wild-watermelon: #ff5f6d;
+  //purple color
+  --purple: #8a2be2;
+  --san-marino: #3f51b5;
+  //snack bar colors
+  --warning: #f9b32f;
+  --warning-dark: #f5ab35;
+  --error: #f75c4c;
+  --error-dark: #d73c2c;
+  --error-danger: #d73027;
+  --success: #2ecc71;
+  --success-dark: #1ebc61;
+  //password recovery status
+  --ignored: #6c757d;
+  --rejected: #dc3545;
+  --approved: #28a745;
+  --pending: #17a2b8;
+  //sider
+  --menu-theme: #0b2559;
+  //shadow
+  --card-shadow: rgba(50, 50, 93, 0.45) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --row-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  --header-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --collapse-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  --enlarged-image-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  --scroll-thumb-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  --scroll-track-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  --empty-state-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+  //borders
+  --light-border: 1px solid #d8d8d8;
+}
